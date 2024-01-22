@@ -9,7 +9,7 @@ Ocreeb MK2 is the second iteration of my macropad project. This version features
 As I mentioned in the video, there are still major performance issues when using multiple external modules. This is probably due to my implementation of the shared interrupt, and I will look into it. 
 Nevertheless, I will supplement this repo with all the files in case you ever wish to use a part of this.
 
-Build instructions → Instructables (coming soon)
+Build instructions → [Instructables](https://www.instructables.com/Modular-Macro-Keyboard-System-Ocreeb-MK2/)
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
