@@ -1,16 +1,21 @@
-Qty,Value,Device,Parts,Package,MP,Digikey,Link,Description
-1,,XIAO RP2040,U1,,102010428,1597-102010428-ND,,RP2040 XIAO RP2040 - ARM® Cortex®-M0+ MCU 32-Bit
-6,0.1uF,C_CHIP-0603(1608-METRIC),"C1, C2, C3, C4, C5, C6",CAPC1608X85,C0603C104M5RAC7867,399-C0603C104M5RAC7867CT-ND,,0.1 µF ±20% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
-5,10K,R-US_CHIP-0603(1608-METRIC),"R1, R2, R3, R4, R5",RESC1608X60,RMCF0603FT10K0,RMCF0603FT10K0CT-ND,,"10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)"
-1,6V/0.75A,PPTC_0.75A,F1,1206 (3216 Metric),PTS12066V075,283-PTS12066V075CT-ND,,"Polymeric PTC Resettable Fuse 6V 750 mA Ih Surface Mount 1206 (3216 Metric), Concave"
-2,BSS138,BSS138,"Q1, Q2",SOT-23-3,BSS138,4530-BSS138CT-ND,,N-Channel 50 V 220mA (Ta) 350mW (Ta) Surface Mount SOT-23
-4,CAY16-103J4LF,CAY16-103J4LF,"RN1, RN2, RN3, RN4",1206 (3216 Metric),CAY16-103J4LF,CAY16-103J4LFCT-ND,,"10k Ohm ±5% 62.5mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
-1,SN74AHCT1G126DBVR,SN74AHCT1G126DBVR,U5,SOT-23-5,SN74AHCT1G126DBVR,296-4710-1-ND,,"Buffer, Non-Inverting 1 Element 1 Bit per Element 3-State Output SOT-23-5"
-2,SN74HC165DBR16-TSSOP,SN74HC165DBR16-TSSOP,"U2, U3",16-SSOP,SN74HC165DBR,296-23151-1-ND,,Shift Shift Register 1 Element 8 Bit 16-SSOP
-1,TCA4307DGKR,TCA4307DGKR,U4,8-VSSOP,TCA4307DGKR,296-TCA4307DGKRCT-ND,,Hot Swap Controller 1 Channel General Purpose 8-VSSOP
-4,WS2812B,WS2812B,"LED1, LED2, LED3, LED4",WS2812B,COM-16347,1568-COM-16347CT-ND,,"Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)"
-1,PEC11R-4215F-S0024,PEC11R-4215F-S0024,ENC,PEC11R-4215F-S0024,PEC11R-4215F-S0024,PEC11R-4215F-S0024-ND,,Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical
-12,,,"S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12",20 Pack,4958,1528-4958-ND,,Kailh MX Hotswap Sockets
-12,,,"S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12",12 Pack,5122,1528-5122-ND,,MX-Compatible Mechanical Keys
-1,,,OLED,,,,geni.us/Jc6463D,0.91 inch OLED Display Module SSD1306 I2C 128x32
-6,,5PIN_EDGE_LANDING,CONNECTOR,,,,,Custom landing pads PCB
+Qty,Parts,Device,Value,Package,MP,Digikey,Type,Description,Link
+1,U1,XIAO RP2040,,,102010428,1597-102010428-ND,SMD,RP2040 XIAO RP2040 - ARM® Cortex®-M0+ MCU 32-Bit,
+6,"C1, C2, C3, C4, C5, C6",C_CHIP-0603(1608-METRIC),0.1uF,CAPC1608X85,C0603C104M5RAC7867,399-C0603C104M5RAC7867CT-ND,SMD,0.1 µF ±20% 50V Ceramic Capacitor X7R 0603 (1608 Metric),
+5,"R1, R2, R3, R4, R5",R-US_CHIP-0603(1608-METRIC),10K,RESC1608X60,RMCF0603FT10K0,RMCF0603FT10K0CT-ND,SMD,"10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)",
+1,F1,PPTC_0.75A,6V/0.75A,1206 (3216 Metric),PTS12066V075,283-PTS12066V075CT-ND,SMD,"Polymeric PTC Resettable Fuse 6V 750 mA Ih Surface Mount 1206 (3216 Metric), Concave",
+2,"Q1, Q2",BSS138,BSS138,SOT-23-3,BSS138,4530-BSS138CT-ND,SMD,N-Channel 50 V 220mA (Ta) 350mW (Ta) Surface Mount SOT-23,
+4,"RN1, RN2, RN3, RN4",CAY16-103J4LF,CAY16-103J4LF,1206 (3216 Metric),CAY16-103J4LF,CAY16-103J4LFCT-ND,SMD,"10k Ohm ±5% 62.5mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals",
+1,U5,SN74AHCT1G126DBVR,SN74AHCT1G126DBVR,SOT-23-5,SN74AHCT1G126DBVR,296-4710-1-ND,SMD,"Buffer, Non-Inverting 1 Element 1 Bit per Element 3-State Output SOT-23-5",
+2,"U2, U3",SN74HC165DBR16-TSSOP,SN74HC165DBR16-TSSOP,16-SSOP,SN74HC165DBR,296-23151-1-ND,SMD,Shift Shift Register 1 Element 8 Bit 16-SSOP,
+1,U4,TCA4307DGKR,TCA4307DGKR,8-VSSOP,TCA4307DGKR,296-TCA4307DGKRCT-ND,SMD,Hot Swap Controller 1 Channel General Purpose 8-VSSOP,
+4,"LED1, LED2, LED3, LED4",WS2812B,WS2812B,WS2812B,COM-16347,1568-COM-16347CT-ND,SMD,"Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)",
+1,ENC,PEC11R-4215F-S0024,PEC11R-4215F-S0024,PEC11R-4215F-S0024,PEC11R-4215F-S0024,PEC11R-4215F-S0024-ND,TH,Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical,
+12,"S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12",MX HOT SWAP SOCKETS,,20 Pack,4958,1528-4958-ND,SMD,Kailh MX Hotswap Sockets,
+12,"S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12",MX SWITCHES,,12 Pack,5122,1528-5122-ND,TH,MX-Compatible Mechanical Keys,
+1,OLED,OLED MODULE,,3 pcs,,,MOD,0.91 inch OLED Display Module SSD1306 I2C 128x32,https://geni.us/Jc6463D
+6,CONNECTOR,5PIN_EDGE_LANDING,,5 pcs,,,SUB,Custom landing pads PCB,https://github.com/sb-ocr/ocreeb-mk-2/tree/main/Connector/PCB/Gerbers
+4,SCR,M2 x 6mm,,Assorted Lengths Kit,,,SCR,M2 Self-Tapping Screws,https://geni.us/OKq551
+3,SCR,M2 x 12mm,,Assorted Lengths Kit,,,SCR,M2 Self-Tapping Screws,https://geni.us/OKq551
+4,SCR,M2 x 16mm,,Assorted Lengths Kit,,,SCR,M2 Self-Tapping Screws,https://geni.us/OKq551
+12,MAG,6 x 3mm,,40 pcs,,,MAG,Small Neodymium Magnets,https://geni.us/X7I9
+4,ADH,6 x 2 mm,,Assorted Kit,,,ADH,Adhesive Bumper Pads Self Stick,https://geni.us/v9UIrL

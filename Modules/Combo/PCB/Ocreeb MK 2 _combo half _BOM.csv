@@ -1,12 +1,16 @@
-Qty,Value,Device,Parts,Package,MP,Digikey,Description
-3,0.1uF,C_CHIP-0603(1608-METRIC),"C1, C2, C3",CAPC1608X85,C0603C104M5RAC7867,399-C0603C104M5RAC7867CT-ND,0.1 µF ±20% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
-2,10K,R-US_CHIP-0603(1608-METRIC),"R1, R2",RESC1608X60,RMCF0603FT10K0,RMCF0603FT10K0CT-ND,"10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)"
-1,10uF,C_CHIP-0805(2012-METRIC),C4,CAPC2012X110,CL21A106KOQNNNE,1276-1096-1-ND,10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)
-1,ATTINY816,ATTINY816,U1,20-SOIC,ATTINY816-SNR,ATTINY816-SNRCT-ND,"AVR tinyAVR™ 1, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 8KB (8K x 8) FLASH 20-SOIC"
-1,CAY16-103J4LF,CAY16-103J4LF,RN4,1206 (3216 Metric),CAY16-103J4LF,CAY16-103J4LFCT-ND,"10k Ohm ±5% 62.5mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals"
-2,WS2812B,WS2812B,"LED1, LED2",WS2812B,COM-16347,1568-COM-16347CT-ND,"Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)"
-1,PEC11R-4215F-S0024,PEC11R-4215F-S0024,ENC,PEC11R-4215F-S0024,PEC11R-4215F-S0024,PEC11R-4215F-S0024-ND,Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical
-3,,,"S1, S2, S3",12 Pack,5122,1528-5122-ND,MX-Compatible Mechanical Keys
-5,,POGO_PIN,CONNECTOR,,0906-0-15-20-76-14-11-0,ED8180-ND,Contact Spring Through Hole
-1,,5PIN_EDGE_CONNECTOR,CONNECTOR,,,,Custom connector PCB
-5,,5PIN_EDGE_LANDING,CONNECTOR,,,,Custom landing pads PCB
+Qty,Parts,Value,Device,Package,MP,Digikey,Type,Description,Link
+3,"C1, C2, C3",0.1uF,C_CHIP-0603(1608-METRIC),CAPC1608X85,C0603C104M5RAC7867,399-C0603C104M5RAC7867CT-ND,SMD,0.1 µF ±20% 50V Ceramic Capacitor X7R 0603 (1608 Metric),
+2,"R1, R2",10K,R-US_CHIP-0603(1608-METRIC),RESC1608X60,RMCF0603FT10K0,RMCF0603FT10K0CT-ND,SMD,"10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)",
+1,C4,10uF,C_CHIP-0805(2012-METRIC),CAPC2012X110,CL21A106KOQNNNE,1276-1096-1-ND,SMD,10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric),
+1,U1,ATTINY816,ATTINY816,20-SOIC,ATTINY816-SNR,ATTINY816-SNRCT-ND,SMD,"AVR tinyAVR™ 1, Functional Safety (FuSa) Microcontroller IC 8-Bit 20MHz 8KB (8K x 8) FLASH 20-SOIC",
+1,RN4,CAY16-103J4LF,CAY16-103J4LF,1206 (3216 Metric),CAY16-103J4LF,CAY16-103J4LFCT-ND,SMD,"10k Ohm ±5% 62.5mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 1206 (3216 Metric), Convex, Long Side Terminals",
+2,"LED1, LED2",WS2812B,WS2812B,WS2812B,COM-16347,1568-COM-16347CT-ND,SMD,"Addressable Lighting - LED Serial NRZ (Shift Register) Red, Green, Blue (RGB)",
+1,ENC,PEC11R-4215F-S0024,PEC11R-4215F-S0024,PEC11R-4215F-S0024,PEC11R-4215F-S0024,PEC11R-4215F-S0024-ND,TH,Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical,
+3,"S1, S2, S3",,,12 Pack,5122,1528-5122-ND,TH,MX-Compatible Mechanical Keys,
+5,CONNECTOR,,POGO_PIN,,0906-0-15-20-76-14-11-0,ED8180-ND,TH,Contact Spring Through Hole,
+1,CONNECTOR,,5PIN_EDGE_CONNECTOR,,,,SUB,Custom connector PCB,https://github.com/sb-ocr/ocreeb-mk-2/tree/main/Connector/PCB/Gerbers
+5,CONNECTOR,,5PIN_EDGE_LANDING,,,,SUB,Custom landing pads PCB,https://github.com/sb-ocr/ocreeb-mk-2/tree/main/Connector/PCB/Gerbers
+2,SCR,M2 x 12mm,,Assorted Lengths Kit,,,SCR,M2 Self-Tapping Screws,https://geni.us/OKq551
+4,SCR,M2 x 16mm,,Assorted Lengths Kit,,,SCR,M2 Self-Tapping Screws,https://geni.us/OKq551
+12,MAG,6 x 3mm,,40 pcs,,,MAG,Small Neodymium Magnets,https://geni.us/X7I9
+4,ADH,6 x 2 mm,,Assorted Kit,,,ADH,Adhesive Bumper Pads Self Stick,https://geni.us/v9UIrL
